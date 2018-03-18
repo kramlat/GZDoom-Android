@@ -49,9 +49,9 @@ public class EntryActivity extends FragmentActivity  {
 
         GamePadFragment.gamepadActions = Utils.getGameGamepadConfig();
 
-        actionBar.addTab(actionBar.newTab().setText("Gzdoom").setTabListener(new TabListener<LaunchFragmentGZdoom>(this, "Gzdoom", LaunchFragmentGZdoom.class)));
-        actionBar.addTab(actionBar.newTab().setText("gamepad").setTabListener(new TabListener<GamePadFragment>(this, "gamepad", GamePadFragment.class)));
-        actionBar.addTab(actionBar.newTab().setText("options").setTabListener(new TabListener<OptionsFragment>(this, "options", OptionsFragment.class)));
+        actionBar.addTab(actionBar.newTab().setText("IWAD").setTabListener(new TabListener<LaunchFragmentGZdoom>(this, "Gzdoom", LaunchFragmentGZdoom.class)));
+        actionBar.addTab(actionBar.newTab().setText("Controls").setTabListener(new TabListener<GamePadFragment>(this, "gamepad", GamePadFragment.class)));
+        actionBar.addTab(actionBar.newTab().setText("Misc").setTabListener(new TabListener<OptionsFragment>(this, "options", OptionsFragment.class)));
 
 
         String last_tab = AppSettings.getStringOption(getApplicationContext(), "last_tab", "");

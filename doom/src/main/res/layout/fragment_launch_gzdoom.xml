@@ -1,13 +1,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/extra_args_linearlayout"
-        android:layout_alignParentLeft="true" >
+        android:layout_alignParentLeft="true">
 
         <ListView
             android:id="@+id/listView"
@@ -15,8 +16,9 @@
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/select_render_linearlayout"
-            android:dividerHeight="5dp" >
-        </ListView>
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:dividerHeight="5dp"
+            android:scrollbars="vertical"></ListView>
 
         <TextView
             android:id="@+id/copy_wads_textview"
@@ -30,7 +32,8 @@
         android:id="@+id/extra_args_linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/start_buttons_linearlayout" >
+        android:layout_above="@+id/start_buttons_linearlayout"
+        android:background="@android:color/holo_green_light">
 
         <TextView
             android:id="@+id/args_textview"
@@ -53,46 +56,47 @@
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/args_delete_imageview"
             android:layout_toRightOf="@+id/extra_args_textview"
-            android:ems="10" >
-        </EditText>
+            android:ems="10"></EditText>
 
         <ImageView
             android:id="@+id/args_delete_imageview"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_toLeftOf="@+id/args_history_imageview"
-            />
+            android:layout_toLeftOf="@+id/args_history_imageview" />
 
         <ImageView
             android:id="@+id/args_history_imageview"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            />
+            android:layout_alignParentRight="true" />
     </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/start_buttons_linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" >
+        android:layout_alignParentBottom="true">
 
         <Button
             android:id="@+id/start_full"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Full"
-            android:textAppearance="?android:attr/textAppearanceLarge" >
-        </Button>
-         <Button
+            android:background="@drawable/layout_sel_background"
+            android:text="Start"
+            android:textSize="18sp"
+            android:typeface="normal"></Button>
+
+        <Button
             android:id="@+id/start_wads"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="WADs"
-            android:textAppearance="?android:attr/textAppearanceLarge" >
-       
+            android:background="@drawable/layout_sel_background"
+            android:text="Add-Ons"
+            android:textSize="18sp"
+            android:typeface="normal">
+
         </Button>
     </LinearLayout>
 
