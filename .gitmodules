@@ -6,7 +6,7 @@
 	url = https://github.com/nvllsvm/openal-soft-android.git
 [submodule "doom/src/main/jni/gzdoom"]
 	path = doom/src/main/jni/gzdoom
-	url = https://github.com/coelckers/gzdoom.git
+	url = https://github.com/kramlat/gzdoom.git
 [submodule "doom/src/main/jni/MobileTouchControls"]
 	path = doom/src/main/jni/MobileTouchControls
 	url = https://github.com/nvllsvm/MobileTouchControls.git
