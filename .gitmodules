@@ -13,3 +13,6 @@
 [submodule "TouchControls"]
 	path = TouchControls
 	url = https://github.com/kramlat/TouchControls.git
+[submodule "doom/src/main/jni/TouchControls"]
+	path = doom/src/main/jni/TouchControls
+	url = https://github.com/kramlat/TouchControls.git
