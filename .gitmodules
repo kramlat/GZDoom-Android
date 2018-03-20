@@ -3,7 +3,7 @@
 	url = https://github.com/kramlat/jpeg8d.git
 [submodule "doom/src/main/jni/openal-soft-android"]
 	path = doom/src/main/jni/openal-soft-android
-	url = https://github.com/nvllsvm/openal-soft-android.git
+	url = https://github.com/kramlat/openal-soft-android.git
 [submodule "doom/src/main/jni/gzdoom"]
 	path = doom/src/main/jni/gzdoom
 	url = https://github.com/kramlat/gzdoom.git
