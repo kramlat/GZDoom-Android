@@ -13,6 +13,7 @@
             android:layout_width="119dp"
             android:layout_height="57dp"
             android:layout_weight="1"
+            android:background="@android:drawable/screen_background_dark_transparent"
             android:maxWidth="@android:dimen/app_icon_size"
             app:srcCompat="@android:drawable/btn_star" />
 
